@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      h1 {
+        font-family: sans-serif;
+      }
+      .outer1 {
+        display: flex;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+        background-color: gray;
+        height: 220px;
+        width: 1000px;
+      }
+
+      .thirdrect {
+        width: 32%;
+        height: 200px;
+        background-color: darkgray;
+        display: inline-block
+      }
+      .outer2 {
+        display:flex;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+        background-color: gray;
+        height: 220px;
+        width: 1000px;
+        border-top: 7px solid gray
+      }
+      .rect-odd {
+        display: inline-block;
+
+        background-color: darkgray;
+        height: 80%;
+        width: 24%;
+      }
+      .rect-even {
+        display: inline-block;
+
+        background-color: darkgray;
+        height: 66%;
+        width: 24%
+      }
+      .outer3 {
+        display: flex;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-end;
+
+        background-color: gray;
+        height: 220px;
+        width: 1000px;
+        border-bottom: 7px solid gray
+      }
+      .rect-first {
+        display: inline-block;
+
+        background-color: darkgray;
+        height: 20%;
+        width: 49%
+      }
+      .rect-second {
+        display: inline-block;
+
+        background-color: darkgray;
+        height: 210px;
+        width: 49%
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>AAAAAHHHHHH</h1>
+    <div class="outer1">
+      <div class="thirdrect"></div>
+      <div class="thirdrect"></div>
+      <div class="thirdrect"></div>
+    </div>
+    <br>
+    <div class="outer2">
+      <div class="rect-odd"></div>
+      <div class="rect-even"></div>
+      <div class="rect-odd"></div>
+      <div class="rect-even"></div>
+    </div>
+    <br>
+    <div class="outer3">
+      <div class="rect-first"></div>
+      <div class="rect-second"></div>
+    </div>
+  </body>
+
+</html>
